@@ -1,4 +1,4 @@
-FROM node:21
+FROM node:20
 WORKDIR /usr/src/polaris
 COPY package*.json ./
 RUN npm install
